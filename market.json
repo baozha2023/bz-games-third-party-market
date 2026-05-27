@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.2.0",
   "marketId": "third-party",
-  "marketName": "BZ-Games-third-party-market",
+  "marketName": "Third-party-market",
   "generatedAt": "2026-05-27T08:00:00.000Z",
   "games": [
     {
@@ -258,7 +258,13 @@
       "author": "Thibaut Despoulain",
       "type": "singleplayer",
       "summary": "未来风格 WebGL 极速赛车 — 驾驶反重力飞船在科幻赛道漂移，1.7k Star 神作！",
-      "tags": ["赛车", "3D", "WebGL", "科幻", "竞速"],
+      "tags": [
+        "赛车",
+        "3D",
+        "WebGL",
+        "科幻",
+        "竞速"
+      ],
       "featured": true,
       "visibility": "public",
       "latestVersion": "1.0.0",
@@ -284,7 +290,13 @@
       "author": "Julian Garnier",
       "type": "singleplayer",
       "summary": "精美 3D 国际象棋 — 纯 CSS/JS 渲染的立体棋盘，经典棋类策略与视觉美学的结合！",
-      "tags": ["棋类", "3D", "策略", "经典", "双人"],
+      "tags": [
+        "棋类",
+        "3D",
+        "策略",
+        "经典",
+        "双人"
+      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
@@ -310,7 +322,13 @@
       "author": "congusbongus",
       "type": "singleplayer",
       "summary": "低像素音乐节奏解谜 — 拖动鼓面匹配节奏，在复古像素画风中感受音乐魅力！",
-      "tags": ["音乐", "节奏", "解谜", "像素", "休闲"],
+      "tags": [
+        "音乐",
+        "节奏",
+        "解谜",
+        "像素",
+        "休闲"
+      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
