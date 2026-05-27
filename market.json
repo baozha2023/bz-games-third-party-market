@@ -1,0 +1,334 @@
+{
+  "schemaVersion": "1.2.0",
+  "marketId": "third-party",
+  "marketName": "BZ-Games-third-party-market",
+  "generatedAt": "2026-05-27T08:00:00.000Z",
+  "games": [
+    {
+      "id": "com.bz.floppybird",
+      "name": "Floppy Bird",
+      "author": "Nebez",
+      "type": "singleplayer",
+      "summary": "经典 Flappy Bird 网页版克隆 — 操控小鸟穿越管道障碍，挑战最高分！",
+      "tags": [
+        "街机",
+        "休闲",
+        "单人"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "经典 Flappy Bird 网页版 — 点击/空格让小鸟飞起，穿越管道得高分！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/nebez/floppybird/archive/refs/heads/gh-pages.zip",
+          "sha256": "bed7cce2411eb3f3fbd343816ce8bfdecd3d51e7c6f849277b9bd4ec6735ef33",
+          "size": 269260,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.g2048",
+      "name": "2048",
+      "author": "Gabriele Cirulli",
+      "type": "singleplayer",
+      "summary": "风靡全球的数字滑动拼图 — 合并相同数字，挑战 2048 甚至更高！",
+      "tags": [
+        "益智",
+        "数字",
+        "休闲",
+        "经典"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "经典 2048 数字拼图 — 上下左右滑动合并方块，目标是凑出 2048！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/gabrielecirulli/2048/archive/refs/heads/master.zip",
+          "sha256": "44ECF1C5A87256B46239DB5C9C9C825CF90BCDDA906B67948F4B6943356F5CF1",
+          "size": 332985,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.hextris",
+      "name": "Hextris",
+      "author": "Garrett Finucane & Logan Engstrom",
+      "type": "singleplayer",
+      "summary": "快节奏六边形消除游戏 — 俄罗斯方块遇上六边形，色彩绚丽节奏紧凑！",
+      "tags": [
+        "益智",
+        "消除",
+        "街机",
+        "快节奏"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "description": "六边形版俄罗斯方块 — 旋转六边形中心，匹配从四面八方涌来的彩色砖块！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/Hextris/hextris/archive/refs/tags/v1.1.zip",
+          "sha256": "0AECC1F0B3F5620E1C5B873D0691B1DECB697B707ACFAFB73AC546E26FC287DC",
+          "size": 1591693,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.adarkroom",
+      "name": "A Dark Room",
+      "author": "Doublespeak Games",
+      "type": "singleplayer",
+      "summary": "极简主义文字冒险 RPG — 从生火取暖开始，逐步揭开神秘世界的面纱！",
+      "tags": [
+        "冒险",
+        "文字",
+        "RPG",
+        "生存",
+        "极简"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.4.0",
+      "versions": [
+        {
+          "version": "1.4.0",
+          "description": "极简文字冒险 — 在寒冷黑暗中生火、建造、探索，故事远超你的想象！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/doublespeakgames/adarkroom/archive/refs/tags/1.4.zip",
+          "sha256": "505FA4A3746FDEE251ADB9DD0A81386CBC65045CAB394C6E9185B891DE06857E",
+          "size": 6877178,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.pacmancanvas",
+      "name": "Pacman Canvas",
+      "author": "Platzh1rsch",
+      "type": "singleplayer",
+      "summary": "经典吃豆人 HTML5 重制版 — 躲避幽灵，吃掉所有豆子，重温街机经典！",
+      "tags": [
+        "街机",
+        "经典",
+        "复古",
+        "动作"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.0.6",
+      "versions": [
+        {
+          "version": "1.0.6",
+          "description": "经典吃豆人 HTML5 版 — 躲避四大幽灵、吃能量豆反击，重温 80 年代街机回忆！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/platzhersh/pacman-canvas/archive/refs/tags/1.0.6.zip",
+          "sha256": "10460FA864EC91EA9DA135191743B0A3963C51361352E26B111945CDA0FBE5DF",
+          "size": 1171088,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.htm",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.trexrunner",
+      "name": "T-Rex Runner",
+      "author": "Wayou",
+      "type": "singleplayer",
+      "summary": "Chrome 小恐龙跑酷网页版 — 跳跃躲避仙人掌，看看你能跑多远！",
+      "tags": [
+        "跑酷",
+        "街机",
+        "休闲",
+        "像素"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "Chrome 断网小恐龙跑酷 — 点击/空格跳跃，躲避障碍物，挑战最长距离！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/wayou/t-rex-runner/archive/refs/heads/gh-pages.zip",
+          "sha256": "E4B8A9792CC3DD9403B6493990AC9D58CFD06E21D2F14DCCA78A6F26D9A01E9A",
+          "size": 2068487,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.astray",
+      "name": "Astray",
+      "author": "Rye Terrell",
+      "type": "singleplayer",
+      "summary": "WebGL 3D 迷宫冒险 — 在逼真的三维迷宫中寻找出路，沉浸式解谜体验！",
+      "tags": [
+        "3D",
+        "迷宫",
+        "解谜",
+        "第一人称"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "3D 第一人称迷宫 — WASD 移动 + 鼠标视角，在光影交错的迷宫中找到出口！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/wwwtyro/Astray/archive/refs/heads/gh-pages.zip",
+          "sha256": "B14FAE6F2E40D4D7D5CB15100BAF07B17741EB546F855A968809FC95869DF59E",
+          "size": 1093019,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.canvastetris",
+      "name": "Canvas Tetris",
+      "author": "Dionysis Zindros",
+      "type": "singleplayer",
+      "summary": "纯 Canvas 版俄罗斯方块 — 极简经典消除，45 分钟写出的传奇小游戏！",
+      "tags": [
+        "益智",
+        "消除",
+        "经典",
+        "极简"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "纯 Canvas 俄罗斯方块 — 经典玩法，旋转下落消除，挑战更高分数！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/dionyziz/canvas-tetris/archive/refs/heads/master.zip",
+          "sha256": "D1225EF101550CD1FC1C95F5A63DA672F35E04CB766E486A0D29F91E7E41348B",
+          "size": 12811,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.hexgl",
+      "name": "HexGL",
+      "author": "Thibaut Despoulain",
+      "type": "singleplayer",
+      "summary": "未来风格 WebGL 极速赛车 — 驾驶反重力飞船在科幻赛道漂移，1.7k Star 神作！",
+      "tags": ["赛车", "3D", "WebGL", "科幻", "竞速"],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "未来风格反重力赛车 — WASD/方向键操控，在炫酷的科幻赛道上挑战最快圈速！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/BKcore/HexGL/archive/refs/heads/master.zip",
+          "sha256": "5ABF0DCE78625D49CBD842B2E9B28B5814BA7C92F4065947F04BBA8AA0FB0FEF",
+          "size": 16947473,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.chess3d",
+      "name": "3D Hartwig Chess",
+      "author": "Julian Garnier",
+      "type": "singleplayer",
+      "summary": "精美 3D 国际象棋 — 纯 CSS/JS 渲染的立体棋盘，经典棋类策略与视觉美学的结合！",
+      "tags": ["棋类", "3D", "策略", "经典", "双人"],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "3D 国际象棋 — 鼠标拖拽旋转视角，与朋友在同一屏幕上来一局精彩对弈！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/juliangarnier/3D-Hartwig-chess-set/archive/refs/heads/master.zip",
+          "sha256": "B573CBFFB9CD7557016596755C8F4169373C542E1099FFF005606A83829A1323",
+          "size": 12039807,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.bz.beatrix",
+      "name": "Beatrix",
+      "author": "congusbongus",
+      "type": "singleplayer",
+      "summary": "低像素音乐节奏解谜 — 拖动鼓面匹配节奏，在复古像素画风中感受音乐魅力！",
+      "tags": ["音乐", "节奏", "解谜", "像素", "休闲"],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "LOWREZ 游戏 Jam 获奖作品 — 拖拽鼓面匹配节拍，用音乐破解每一关的谜题！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/cxong/Beatrix/archive/refs/heads/master.zip",
+          "sha256": "400D895F17BAB137EE7D983083D954914B2B2FAC85F39F165A40642B11A59FDC",
+          "size": 385981,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
+        }
+      ]
+    }
+  ]
+}
