@@ -258,6 +258,39 @@
           "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/shapez/v1.6.0/shapez.zip"
         }
       ]
+    },
+    {
+      "id": "com.bztp.shatteredpd",
+      "name": "Shattered Pixel Dungeon",
+      "author": "Evan",
+      "author_url": "https://github.com/00-Evan",
+      "type": "singleplayer",
+      "summary": "经典 Roguelike 像素地牢 — 探索随机生成的地牢，收集武器道具，挑战地牢Boss！",
+      "tags": [
+        "Roguelike",
+        "地牢",
+        "像素",
+        "冒险",
+        "RPG"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "3.3.8",
+      "versions": [
+        {
+          "version": "3.3.8",
+          "description": "像素地牢神作 — 四职业可选，随机地牢、海量道具、策略回合制战斗！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/v3.3.8/ShatteredPD-v3.3.8-Windows.zip",
+          "sha256": "80A5354CA73029B7A48F7A428CAE5208CDF3281372A7E63053AE729CEF382A42",
+          "size": 107554616,
+          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "gameManifest": {
+            "entry": "Shattered Pixel Dungeon.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
     }
   ]
 }

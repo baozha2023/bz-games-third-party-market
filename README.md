@@ -41,3 +41,4 @@
 | HexGL | Thibaut Despoulain | [BKcore/HexGL](https://github.com/BKcore/HexGL) |
 | Beatrix | congusbongus | [cxong/Beatrix](https://github.com/cxong/Beatrix) |
 | shapez.io | tobspr Games | [tobspr-games/shapez.io](https://github.com/tobspr-games/shapez.io) |
+| Shattered Pixel Dungeon | Evan | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) |
