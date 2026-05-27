@@ -5,7 +5,7 @@
   "generatedAt": "2026-05-27T08:00:00.000Z",
   "games": [
     {
-      "id": "com.bz.floppybird",
+      "id": "com.bztp.floppybird",
       "name": "Floppy Bird",
       "author": "Nebez",
       "type": "singleplayer",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "com.bz.g2048",
+      "id": "com.bztp.g2048",
       "name": "2048",
       "author": "Gabriele Cirulli",
       "type": "singleplayer",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "id": "com.bz.hextris",
+      "id": "com.bztp.hextris",
       "name": "Hextris",
       "author": "Garrett Finucane & Logan Engstrom",
       "type": "singleplayer",
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "com.bz.adarkroom",
+      "id": "com.bztp.adarkroom",
       "name": "A Dark Room",
       "author": "Doublespeak Games",
       "type": "singleplayer",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": "com.bz.pacmancanvas",
+      "id": "com.bztp.pacmancanvas",
       "name": "Pacman Canvas",
       "author": "Platzh1rsch",
       "type": "singleplayer",
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "id": "com.bz.trexrunner",
+      "id": "com.bztp.trexrunner",
       "name": "T-Rex Runner",
       "author": "Wayou",
       "type": "singleplayer",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "id": "com.bz.astray",
+      "id": "com.bztp.astray",
       "name": "Astray",
       "author": "Rye Terrell",
       "type": "singleplayer",
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "id": "com.bz.canvastetris",
+      "id": "com.bztp.canvastetris",
       "name": "Canvas Tetris",
       "author": "Dionysis Zindros",
       "type": "singleplayer",
@@ -253,7 +253,7 @@
       ]
     },
     {
-      "id": "com.bz.hexgl",
+      "id": "com.bztp.hexgl",
       "name": "HexGL",
       "author": "Thibaut Despoulain",
       "type": "singleplayer",
@@ -285,7 +285,7 @@
       ]
     },
     {
-      "id": "com.bz.chess3d",
+      "id": "com.bztp.chess3d",
       "name": "3D Hartwig Chess",
       "author": "Julian Garnier",
       "type": "singleplayer",
@@ -317,7 +317,7 @@
       ]
     },
     {
-      "id": "com.bz.beatrix",
+      "id": "com.bztp.beatrix",
       "name": "Beatrix",
       "author": "congusbongus",
       "type": "singleplayer",
