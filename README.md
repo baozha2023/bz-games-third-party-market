@@ -27,3 +27,17 @@
 ## 版权说明
 
 本仓库中所有游戏版权归原作者所有，本仓库仅提供下载索引和平台适配配置。
+
+## 已有游戏
+
+| 游戏名称 | 作者 | 仓库地址 |
+|---------|------|---------|
+| Floppy Bird | Nebez | [nebez/floppybird](https://github.com/nebez/floppybird) |
+| 2048 | Gabriele Cirulli | [gabrielecirulli/2048](https://github.com/gabrielecirulli/2048) |
+| Hextris | Garrett Finucane & Logan Engstrom | [Hextris/hextris](https://github.com/Hextris/hextris) |
+| A Dark Room | Doublespeak Games | [doublespeakgames/adarkroom](https://github.com/doublespeakgames/adarkroom) |
+| T-Rex Runner | Wayou | [wayou/t-rex-runner](https://github.com/wayou/t-rex-runner) |
+| Astray | Rye Terrell | [wwwtyro/Astray](https://github.com/wwwtyro/Astray) |
+| HexGL | Thibaut Despoulain | [BKcore/HexGL](https://github.com/BKcore/HexGL) |
+| Beatrix | congusbongus | [cxong/Beatrix](https://github.com/cxong/Beatrix) |
+| shapez.io | tobspr Games | [tobspr-games/shapez.io](https://github.com/tobspr-games/shapez.io) |

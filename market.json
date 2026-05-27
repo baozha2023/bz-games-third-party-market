@@ -36,38 +36,6 @@
       ]
     },
     {
-      "id": "com.bztp.g2048",
-      "name": "2048",
-      "author": "Gabriele Cirulli",
-      "author_url": "https://github.com/gabrielecirulli",
-      "type": "singleplayer",
-      "summary": "风靡全球的数字滑动拼图 — 合并相同数字，挑战 2048 甚至更高！",
-      "tags": [
-        "益智",
-        "数字",
-        "休闲",
-        "经典"
-      ],
-      "featured": true,
-      "visibility": "public",
-      "latestVersion": "1.0.0",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "description": "经典 2048 数字拼图 — 上下左右滑动合并方块，目标是凑出 2048！",
-          "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/gabrielecirulli/2048/archive/refs/heads/master.zip",
-          "sha256": "44ECF1C5A87256B46239DB5C9C9C825CF90BCDDA906B67948F4B6943356F5CF1",
-          "size": 332985,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
-          "gameManifest": {
-            "entry": "index.html",
-            "type": "singleplayer"
-          }
-        }
-      ]
-    },
-    {
       "id": "com.bztp.hextris",
       "name": "Hextris",
       "author": "Garrett Finucane & Logan Engstrom",
@@ -259,6 +227,35 @@
             "entry": "index.html",
             "type": "singleplayer"
           }
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.shapezio",
+      "name": "shapez-community-edition",
+      "author": "tobspr Games",
+      "author_url": "https://github.com/tobspr-games",
+      "type": "singleplayer",
+      "summary": "开源自动化工厂建造游戏 — 挖掘、运输、合并形状，打造全自动流水线！",
+      "tags": [
+        "模拟",
+        "建造",
+        "自动化",
+        "工厂",
+        "沙盒"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.6.0",
+      "versions": [
+        {
+          "version": "1.6.0",
+          "description": "开源工厂建造神作 — 从采矿开始，构建传送带网络，自动化生产各种形状！",
+          "platformVersion": ">=2.1.5",
+          "sha256": "b6e0cc61483cd59e0c2423cfeeb7f0a923519c817c282b9645f04ac36141fb40",
+          "size": 252578910,
+          "publishedAt": "2026-05-27T11:44:17.000Z",
+          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/shapez/v1.6.0/shapez.zip"
         }
       ]
     }
