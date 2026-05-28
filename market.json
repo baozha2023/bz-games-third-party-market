@@ -291,6 +291,36 @@
           }
         }
       ]
+    },
+    {
+      "id": "com.bztp.mindustry",
+      "name": "Mindustry",
+      "author": "Anuken",
+      "author_url": "https://github.com/Anuken",
+      "type": "singleplayer",
+      "summary": "开源工厂塔防游戏 — 建造自动化流水线，采集资源研发科技，抵御敌人进攻！",
+      "tags": [
+        "塔防",
+        "建造",
+        "工厂",
+        "沙盒",
+        "策略",
+        "自动化"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "158.1.0",
+      "versions": [
+        {
+          "version": "158.1.0",
+          "description": "开源工厂塔防神作 — 建造传送带和钻头，打造自动化工业帝国，抵御一波波敌人进攻！支持自定义地图和多人联机。",
+          "platformVersion": ">=2.1.5",
+          "sha256": "95881622ec17c3ac9fb2e98cc3c26ebd4a0a6e8919f525940cb2fc45459acfec",
+          "size": 130857725,
+          "publishedAt": "2026-05-28T14:26:55.000Z",
+          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/v158.1.0/Mindustry.zip"
+        }
+      ]
     }
   ]
 }
