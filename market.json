@@ -321,6 +321,40 @@
           "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/v158.1.0/Mindustry.zip"
         }
       ]
+    },
+    {
+      "id": "com.bztp.endlesssky",
+      "name": "Endless Sky",
+      "author": "Michael Zahniser",
+      "author_url": "https://github.com/endless-sky",
+      "type": "singleplayer",
+      "summary": "开源太空探索贸易游戏 — 驾驶飞船在广袤星系中贸易、战斗、探索，体验史诗级太空冒险！",
+      "tags": [
+        "太空",
+        "探索",
+        "贸易",
+        "战斗",
+        "RPG",
+        "开放世界"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "0.10.16",
+      "versions": [
+        {
+          "version": "0.10.16",
+          "description": "开源太空沙盒神作 — 自由探索星系、倒卖货物致富、改装飞船舰队，书写属于你的太空传奇！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/endless-sky/endless-sky/releases/download/v0.10.16/EndlessSky-win64-v0.10.16.zip",
+          "sha256": "9743DDDF348AAA8718FC2D9E4AB059286AA795AD4AAF61C2B9768693A785E877",
+          "size": 367886175,
+          "publishedAt": "2026-05-29T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "Endless Sky.exe",
+            "type": "singleplayer"
+          }
+        }
+      ]
     }
   ]
 }

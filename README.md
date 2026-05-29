@@ -43,3 +43,4 @@
 | shapez.io | tobspr Games | [tobspr-games/shapez.io](https://github.com/tobspr-games/shapez.io) |
 | Shattered Pixel Dungeon | Evan | [00-Evan/shattered-pixel-dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) |
 | Mindustry | Anuken | [Anuken/Mindustry](https://github.com/Anuken/Mindustry) |
+| Endless Sky | Michael Zahniser | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) |
