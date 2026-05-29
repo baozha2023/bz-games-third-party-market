@@ -344,10 +344,8 @@
         {
           "version": "0.10.16",
           "description": "开源太空沙盒神作 — 自由探索星系、倒卖货物致富、改装飞船舰队，书写属于你的太空传奇！",
-          "platformVersion": ">=2.1.5",
+          "platformVersion": ">=2.1.6",
           "downloadUrl": "https://github.com/endless-sky/endless-sky/releases/download/v0.10.16/EndlessSky-win64-v0.10.16.zip",
-          "sha256": "9743DDDF348AAA8718FC2D9E4AB059286AA795AD4AAF61C2B9768693A785E877",
-          "size": 367886175,
           "publishedAt": "2026-05-29T00:00:00.000Z",
           "gameManifest": {
             "entry": "Endless Sky.exe",

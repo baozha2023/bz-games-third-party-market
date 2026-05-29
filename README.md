@@ -6,16 +6,16 @@
 
 1. Fork 本仓库
 2. 在 `market.json` 的 `games` 数组中新增一个游戏条目
-3. 下载游戏 ZIP 包，计算 SHA256 和文件大小：
+3. 填写 `downloadUrl`、`gameManifest` 等字段：
 
-   ```powershell
-   # 下载
-   Invoke-WebRequest -Uri "下载URL" -OutFile "game.zip"
-   # 计算 SHA256
-   Get-FileHash -Algorithm SHA256 game.zip
-   # 查看大小（字节）
-   (Get-Item game.zip).Length
-   ```
+   - **`downloadUrl` 指向 GitHub Releases 时**：`sha256` 和 `size` 字段可选，平台会在下载前通过 GitHub REST API (`GET /repos/{owner}/{repo}/releases/tags/{tag}`) 自动获取 Release Asset 的 `digest` 和 `size`，无需手动计算。
+   - **`downloadUrl` 非 GitHub URL 时**：必须填写 `sha256` 和 `size`。计算方式：
+
+     ```powershell
+     Invoke-WebRequest -Uri "下载URL" -OutFile "game.zip"
+     Get-FileHash -Algorithm SHA256 game.zip
+     (Get-Item game.zip).Length
+     ```
 
 4. 填写完整的 `gameManifest`，确保 `entry` 字段指向正确的入口文件
 5. 提交 Pull Request
