@@ -2,7 +2,7 @@
   "schemaVersion": "1.2.0",
   "marketId": "third-party",
   "marketName": "Third-party-market",
-  "generatedAt": "2026-05-27T08:00:00.000Z",
+  "generatedAt": "2026-05-30T08:00:00.000Z",
   "games": [
     {
       "id": "com.bztp.floppybird",
@@ -260,39 +260,6 @@
       ]
     },
     {
-      "id": "com.bztp.shatteredpd",
-      "name": "Shattered Pixel Dungeon",
-      "author": "Evan",
-      "author_url": "https://github.com/00-Evan",
-      "type": "singleplayer",
-      "summary": "经典 Roguelike 像素地牢 — 探索随机生成的地牢，收集武器道具，挑战地牢Boss！",
-      "tags": [
-        "Roguelike",
-        "地牢",
-        "像素",
-        "冒险",
-        "RPG"
-      ],
-      "featured": true,
-      "visibility": "public",
-      "latestVersion": "3.3.8",
-      "versions": [
-        {
-          "version": "3.3.8",
-          "description": "像素地牢神作 — 四职业可选，随机地牢、海量道具、策略回合制战斗！",
-          "platformVersion": ">=2.1.5",
-          "downloadUrl": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/v3.3.8/ShatteredPD-v3.3.8-Windows.zip",
-          "sha256": "80A5354CA73029B7A48F7A428CAE5208CDF3281372A7E63053AE729CEF382A42",
-          "size": 107554616,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
-          "gameManifest": {
-            "entry": "Shattered Pixel Dungeon.exe",
-            "type": "singleplayer"
-          }
-        }
-      ]
-    },
-    {
       "id": "com.bztp.mindustry",
       "name": "Mindustry",
       "author": "Anuken",
@@ -319,38 +286,6 @@
           "size": 130857725,
           "publishedAt": "2026-05-28T14:26:55.000Z",
           "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/v158.1.0/Mindustry.zip"
-        }
-      ]
-    },
-    {
-      "id": "com.bztp.endlesssky",
-      "name": "Endless Sky",
-      "author": "Michael Zahniser",
-      "author_url": "https://github.com/endless-sky",
-      "type": "singleplayer",
-      "summary": "开源太空探索贸易游戏 — 驾驶飞船在广袤星系中贸易、战斗、探索，体验史诗级太空冒险！",
-      "tags": [
-        "太空",
-        "探索",
-        "贸易",
-        "战斗",
-        "RPG",
-        "开放世界"
-      ],
-      "featured": true,
-      "visibility": "public",
-      "latestVersion": "0.10.16",
-      "versions": [
-        {
-          "version": "0.10.16",
-          "description": "开源太空沙盒神作 — 自由探索星系、倒卖货物致富、改装飞船舰队，书写属于你的太空传奇！",
-          "platformVersion": ">=2.1.6",
-          "downloadUrl": "https://github.com/endless-sky/endless-sky/releases/download/v0.10.16/EndlessSky-win64-v0.10.16.zip",
-          "publishedAt": "2026-05-29T00:00:00.000Z",
-          "gameManifest": {
-            "entry": "Endless Sky.exe",
-            "type": "singleplayer"
-          }
         }
       ]
     }
