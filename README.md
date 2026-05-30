@@ -8,8 +8,9 @@
 2. 在 `market.json` 的 `games` 数组中新增一个游戏条目
 3. 填写 `downloadUrl`、`gameManifest` 等字段：
 
-   - **`downloadUrl` 指向 GitHub Releases 时**：`sha256` 和 `size` 字段可选，平台会在下载前通过 GitHub REST API (`GET /repos/{owner}/{repo}/releases/tags/{tag}`) 自动获取 Release Asset 的 `digest` 和 `size`，无需手动计算。
-   - **`downloadUrl` 非 GitHub URL 时**：必须填写 `sha256` 和 `size`。计算方式：
+   - **`sha256`**：可选。若提供则平台会在下载后校验文件完整性（64 位 hex，大小写不敏感）
+   - **`size`**：建议填写（字节）。`downloadUrl` 为 GitHub Releases 直链时可由平台自动获取
+   - 计算方式（手动填写时）：
 
      ```powershell
      Invoke-WebRequest -Uri "下载URL" -OutFile "game.zip"
