@@ -274,7 +274,7 @@
         "策略",
         "自动化"
       ],
-      "icon": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/Mindustry.png",
+      "iconUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/Mindustry.png",
       "featured": true,
       "visibility": "public",
       "latestVersion": "158.1.0",
