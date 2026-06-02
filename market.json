@@ -16,7 +16,7 @@
         "休闲",
         "单人"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
@@ -48,7 +48,7 @@
         "街机",
         "快节奏"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "1.1.0",
       "versions": [
@@ -145,7 +145,7 @@
         "解谜",
         "第一人称"
       ],
-      "featured": true,
+      "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
