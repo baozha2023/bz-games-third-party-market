@@ -1,9 +1,9 @@
 # bz-games 第三方市场
 
-为 [bz-games](https://github.com/baozha2023/bz-games) 游戏平台收录第三方开源游戏的索引仓库。本仓库中的游戏均为 GitHub 上的开源项目，通过 `gameManifest` 字段自动适配平台，无需游戏自带 `game.json`。
+为 [bz-games](https://github.com/baozha2023/bz-games) 游戏平台收录第三方开源游戏的索引仓库。
 
 ## 如何添加新游戏
-
+~~~~
 1. Fork 本仓库
 2. 在 `market.json` 的 `games` 数组中新增一个游戏条目
 3. 填写 `downloadUrl`、`gameManifest` 等字段：
