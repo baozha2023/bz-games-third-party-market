@@ -290,6 +290,35 @@
           "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/v158.1.0/Mindustry.zip"
         }
       ]
+    },
+    {
+      "id": "com.bztp.opengolf",
+      "name": "Open Golf",
+      "author": "mgerdes",
+      "author_url": "https://github.com/mgerdes",
+      "type": "singleplayer",
+      "summary": "开源迷你高尔夫网页游戏 — 像素风格，多球洞挑战，在浏览器中享受高尔夫乐趣！",
+      "tags": [
+        "体育",
+        "高尔夫",
+        "像素",
+        "休闲",
+        "网页"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "开源迷你高尔夫 — 像素风格多球洞挑战，瞄准力度精确挥杆！",
+          "platformVersion": ">=1.9.4",
+          "sha256": "0cca44f5a8efe4d0f0079e615f06b84a61809db896472fb510bcd08935a0bc3c",
+          "size": 585,
+          "publishedAt": "2026-06-08T08:44:48.000Z",
+          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Open-Golf/v1.0.0/Open-Golf.zip"
+        }
+      ]
     }
   ]
 }
