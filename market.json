@@ -252,9 +252,9 @@
           "version": "1.6.0",
           "description": "开源工厂建造神作 — 从采矿开始，构建传送带网络，自动化生产各种形状！",
           "platformVersion": ">=2.1.5",
-          "sha256": "9db5e17ef6c24c09b68491d84a27dfc212c23d0509e3dfcc08c10525fd95aa07",
-          "size": 253038818,
-          "publishedAt": "2026-05-28T09:17:05.000Z",
+          "sha256": "c798bd8d5a60b2602486c1fa3b78879798ffa4b8fd5509a3b0cb99c1bb57d63c",
+          "size": 565388753,
+          "publishedAt": "2026-06-09T13:20:11.000Z",
           "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/shapez/v1.6.0/shapez.zip"
         }
       ]
@@ -284,9 +284,9 @@
           "version": "158.1.0",
           "description": "开源工厂塔防神作 — 建造传送带和钻头，打造自动化工业帝国，抵御一波波敌人进攻！支持自定义地图和多人联机。",
           "platformVersion": ">=2.1.5",
-          "sha256": "2d0789f4553fabe4c8b94676509465ff2a6e30519303d6a25ad467a597091a1e",
-          "size": 133099496,
-          "publishedAt": "2026-06-02T08:52:30.000Z",
+          "sha256": "06ef1af15762178bea82395c060b9f4e46c0e4d67364c22ec57fe20fefb035fd",
+          "size": 396954755,
+          "publishedAt": "2026-06-09T12:54:41.000Z",
           "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/v158.1.0/Mindustry.zip"
         }
       ]
@@ -317,6 +317,35 @@
           "size": 602,
           "publishedAt": "2026-06-08T08:51:49.000Z",
           "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Open-Golf/v1.0.0/Open-Golf.zip"
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.youretheos",
+      "name": "youre-the-os",
+      "author": "plbrault",
+      "author_url": "https://github.com/plbrault",
+      "type": "networkgame",
+      "summary": "模拟操作系统网页游戏 — 扮演操作系统，管理进程、处理中断、调度资源，体验 OS 内核的日常！",
+      "tags": [
+        "模拟",
+        "教育",
+        "操作系统",
+        "策略",
+        "网页"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.11.0",
+      "versions": [
+        {
+          "version": "1.11.0",
+          "description": "模拟操作系统网页游戏 — 扮演操作系统，管理进程、处理中断、调度资源，体验 OS 内核的日常！",
+          "platformVersion": ">=2.1.5",
+          "sha256": "1e82bb6e6050ec7c80c928c516366bf7a742fb128cc089fd1a5500a5e16fb905",
+          "size": 631,
+          "publishedAt": "2026-06-09T12:06:09.000Z",
+          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/youre-the-os/v1.11.0/youre-the-os.zip"
         }
       ]
     }
