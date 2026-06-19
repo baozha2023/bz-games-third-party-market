@@ -3,7 +3,7 @@
   "marketId": "third-party",
   "marketName": "Third-party-market",
   "generatedAt": "2026-05-30T08:00:00.000Z",
-  "updatedAt": "2026-06-09T13:21:17.000Z",
+  "updatedAt": "2026-06-19T07:58:32.000Z",
   "repository": "https://github.com/baozha2023/bz-games-third-party-market.git",
   "author": "baozha2023",
   "games": [
@@ -349,6 +349,32 @@
           "size": 631,
           "publishedAt": "2026-06-09T12:06:09.000Z",
           "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/youre-the-os/v1.11.0/youre-the-os.zip"
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.cybercode",
+      "name": "CyberCode Online",
+      "author": "DexterHuang",
+      "author_url": "https://github.com/DexterHuang",
+      "type": "networkgame",
+      "summary": "开源赛博朋克文字 MMORPG — 废土世界探索、装备制造、副本刷宝、聊天社交，浏览器即玩的在线角色扮演！",
+      "tags": [
+        "MMORPG",
+        "文字",
+        "赛博朋克",
+        "社交",
+        "网页"
+      ],
+      "featured": true,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "开源赛博朋克文字 MMORPG — 废土世界探索、装备制造、副本刷宝、聊天社交，浏览器即玩的在线角色扮演！",
+          "platformVersion": ">=2.1.5",
+          "publishedAt": "2026-06-10T08:00:00.000Z"
         }
       ]
     }

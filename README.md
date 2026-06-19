@@ -47,3 +47,4 @@
 | Open Golf | mgerdes | [mgerdes/Open-Golf](https://github.com/mgerdes/Open-Golf) |
 | Endless Sky | Michael Zahniser | [endless-sky/endless-sky](https://github.com/endless-sky/endless-sky) |
 | youre-the-os | plbrault | [plbrault/youre-the-os](https://github.com/plbrault/youre-the-os) |
+| CyberCode Online | DexterHuang | [DexterHuang/CyberCodeOnline](https://github.com/DexterHuang/CyberCodeOnline) |
