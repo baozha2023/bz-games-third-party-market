@@ -3,7 +3,7 @@
   "marketId": "third-party",
   "marketName": "Third-party-market",
   "generatedAt": "2026-05-30T08:00:00.000Z",
-  "updatedAt": "2026-06-19T07:58:32.000Z",
+  "updatedAt": "2026-08-06T00:00:00.000Z",
   "repository": "https://github.com/baozha2023/bz-games-third-party-market.git",
   "author": "baozha2023",
   "games": [
@@ -375,6 +375,39 @@
           "description": "开源赛博朋克文字 MMORPG — 废土世界探索、装备制造、副本刷宝、聊天社交，浏览器即玩的在线角色扮演！",
           "platformVersion": ">=2.1.5",
           "publishedAt": "2026-06-10T08:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "com.bztp.emojiminesweeper",
+      "name": "Emoji Minesweeper",
+      "author": "muan",
+      "author_url": "https://github.com/muan",
+      "type": "singleplayer",
+      "summary": "Emoji 扫雷游戏 — 用可爱的表情符号玩经典扫雷，左键翻开、右键标记地雷！",
+      "tags": [
+        "扫雷",
+        "益智",
+        "休闲",
+        "网页",
+        "Emoji"
+      ],
+      "featured": false,
+      "visibility": "public",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "description": "Emoji 扫雷游戏 — 用表情符号玩经典扫雷，左键翻开格子、右键标记地雷、双击展开邻近区域！",
+          "platformVersion": ">=2.1.5",
+          "downloadUrl": "https://github.com/muan/emoji-minesweeper/archive/refs/heads/gh-pages.zip",
+          "sha256": "6EF7D8BC6C33432006971BE83568F946C749DAF68AA1EB8F5A9418B4648F45CE",
+          "size": 17468,
+          "publishedAt": "2019-10-21T00:00:00.000Z",
+          "gameManifest": {
+            "entry": "index.html",
+            "type": "singleplayer"
+          }
         }
       ]
     }
