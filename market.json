@@ -1,282 +1,779 @@
 {
-  "schemaVersion": "1.3.0",
+  "schemaVersion": 2,
   "marketId": "third-party",
   "marketName": "Third-party-market",
   "generatedAt": "2026-05-30T08:00:00.000Z",
-  "updatedAt": "2026-08-15T13:26:55.000Z",
+  "updatedAt": "2026-08-26T13:31:41.932Z",
   "repository": "https://github.com/baozha2023/bz-games-third-party-market.git",
   "author": "baozha2023",
   "games": [
     {
       "id": "com.bztp.floppybird",
-      "name": "Floppy Bird",
       "author": "Nebez",
       "author_url": "https://github.com/nebez",
       "type": "singleplayer",
-      "summary": "经典 Flappy Bird 网页版克隆 — 操控小鸟穿越管道障碍，挑战最高分！",
-      "tags": [
-        "街机",
-        "休闲",
-        "单人"
-      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
         {
           "version": "1.0.0",
-          "description": "经典 Flappy Bird 网页版 — 点击/空格让小鸟飞起，穿越管道得高分！",
           "platformVersion": ">=2.1.5",
           "downloadUrl": "https://github.com/nebez/floppybird/archive/refs/heads/gh-pages.zip",
           "sha256": "bed7cce2411eb3f3fbd343816ce8bfdecd3d51e7c6f849277b9bd4ec6735ef33",
           "size": 269260,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "publishedAt": "2026-05-27T08:00:00Z",
           "gameManifest": {
             "entry": "index.html",
-            "type": "singleplayer"
+            "type": "singleplayer",
+            "manifestVersion": 2
+          },
+          "localizations": {
+            "zh-CN": {
+              "description": "经典 Flappy Bird 网页版 — 点击/空格让小鸟飞起，穿越管道得高分！"
+            },
+            "zh-TW": {
+              "description": "經典 Flappy Bird 網頁版 — 點擊/空格讓小鳥飛起，穿越管道得高分！"
+            },
+            "en-US": {
+              "description": "Classic Flappy Bird web version - click/space to make the bird fly, go through the pipes and get high scores!"
+            },
+            "ja-JP": {
+              "description": "クラシックな Flappy Bird Web バージョン - クリック/スペースで鳥を飛ばし、パイプをくぐり抜けて高得点を獲得しましょう!"
+            },
+            "de-DE": {
+              "description": "Klassische Flappy Bird-Webversion – klicken Sie auf die Leertaste, um den Vogel fliegen zu lassen, durch die Rohre zu fliegen und Highscores zu erzielen!"
+            }
           }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "Floppy Bird",
+          "summary": "经典 Flappy Bird 网页版克隆 — 操控小鸟穿越管道障碍，挑战最高分！",
+          "tags": [
+            "街机",
+            "休闲",
+            "单人"
+          ]
+        },
+        "zh-TW": {
+          "name": "Floppy Bird",
+          "summary": "經典 Flappy Bird 網頁版克隆 — 操控小鳥穿越管道障礙，挑戰最高分！",
+          "tags": [
+            "街機",
+            "休閒",
+            "單人"
+          ]
+        },
+        "en-US": {
+          "name": "Floppy Bird",
+          "summary": "Classic Flappy Bird web version clone - control the bird through pipe obstacles and challenge for the highest score!",
+          "tags": [
+            "Arcade",
+            "Leisure",
+            "Single"
+          ]
+        },
+        "ja-JP": {
+          "name": "フロッピーバード",
+          "summary": "古典的な Flappy Bird Web バージョンのクローン - パイプの障害物を通して鳥を制御し、最高スコアに挑戦してください!",
+          "tags": [
+            "アーケード",
+            "レジャー",
+            "シングル"
+          ]
+        },
+        "de-DE": {
+          "name": "Floppy Bird",
+          "summary": "Klassischer Klon der Flappy Bird-Webversion – steuern Sie den Vogel durch Rohrhindernisse und fordern Sie die höchste Punktzahl heraus!",
+          "tags": [
+            "Arcade",
+            "Freizeit",
+            "Single"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.hextris",
-      "name": "Hextris",
       "author": "Garrett Finucane & Logan Engstrom",
       "author_url": "https://github.com/Hextris",
       "type": "singleplayer",
-      "summary": "快节奏六边形消除游戏 — 俄罗斯方块遇上六边形，色彩绚丽节奏紧凑！",
-      "tags": [
-        "益智",
-        "消除",
-        "街机",
-        "快节奏"
-      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.1.0",
       "versions": [
         {
           "version": "1.1.0",
-          "description": "六边形版俄罗斯方块 — 旋转六边形中心，匹配从四面八方涌来的彩色砖块！",
           "platformVersion": ">=2.1.5",
           "downloadUrl": "https://github.com/Hextris/hextris/archive/refs/tags/v1.1.zip",
           "sha256": "0AECC1F0B3F5620E1C5B873D0691B1DECB697B707ACFAFB73AC546E26FC287DC",
           "size": 1591693,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "publishedAt": "2026-05-27T08:00:00Z",
           "gameManifest": {
             "entry": "index.html",
-            "type": "singleplayer"
+            "type": "singleplayer",
+            "manifestVersion": 2
+          },
+          "localizations": {
+            "zh-CN": {
+              "description": "六边形版俄罗斯方块 — 旋转六边形中心，匹配从四面八方涌来的彩色砖块！"
+            },
+            "zh-TW": {
+              "description": "六角形版俄羅斯方塊 — 旋轉六角形中心，搭配從四面八方湧來的彩色磚塊！"
+            },
+            "en-US": {
+              "description": "Hexagonal Tetris - Rotate the center of the hexagon to match colored bricks coming from all directions!"
+            },
+            "ja-JP": {
+              "description": "六角形テトリス - 六角形の中心を回転させて、全方向から来る色のレンガに合わせます。"
+            },
+            "de-DE": {
+              "description": "Sechseckiges Tetris – Drehen Sie die Mitte des Sechsecks, um farbige Steine aus allen Richtungen anzupassen!"
+            }
           }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "Hextris",
+          "summary": "快节奏六边形消除游戏 — 俄罗斯方块遇上六边形，色彩绚丽节奏紧凑！",
+          "tags": [
+            "益智",
+            "消除",
+            "街机",
+            "快节奏"
+          ]
+        },
+        "zh-TW": {
+          "name": "Hextris",
+          "summary": "快節奏六角形消除遊戲 — 俄羅斯方塊遇上六邊形，色彩絢麗節奏緊湊！",
+          "tags": [
+            "益智",
+            "消除",
+            "街機",
+            "快節奏"
+          ]
+        },
+        "en-US": {
+          "name": "Hextris",
+          "summary": "Fast-paced hexagon matching game - Tetris meets hexagons in a colorful and fast-paced game!",
+          "tags": [
+            "puzzle",
+            "eliminate",
+            "Arcade",
+            "fast paced"
+          ]
+        },
+        "ja-JP": {
+          "name": "ヘクストリス",
+          "summary": "ペースの速い六角形マッチング ゲーム - カラフルでペースの速いゲームでテトリスと六角形が融合します。",
+          "tags": [
+            "パズル",
+            "排除する",
+            "アーケード",
+            "ペースが速い"
+          ]
+        },
+        "de-DE": {
+          "name": "Hextris",
+          "summary": "Rasantes Sechseck-Matching-Spiel – Tetris trifft in einem farbenfrohen und rasanten Spiel auf Sechsecke!",
+          "tags": [
+            "Rätsel",
+            "beseitigen",
+            "Arcade",
+            "rasant"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.adarkroom",
-      "name": "A Dark Room",
       "author": "Doublespeak Games",
       "author_url": "https://github.com/doublespeakgames",
       "type": "singleplayer",
-      "summary": "极简主义文字冒险 RPG — 从生火取暖开始，逐步揭开神秘世界的面纱！",
-      "tags": [
-        "冒险",
-        "文字",
-        "RPG",
-        "生存",
-        "极简"
-      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.4.0",
       "versions": [
         {
           "version": "1.4.0",
-          "description": "极简文字冒险 — 在寒冷黑暗中生火、建造、探索，故事远超你的想象！",
           "platformVersion": ">=2.1.5",
           "downloadUrl": "https://github.com/doublespeakgames/adarkroom/archive/refs/tags/1.4.zip",
           "sha256": "505FA4A3746FDEE251ADB9DD0A81386CBC65045CAB394C6E9185B891DE06857E",
           "size": 6877178,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "publishedAt": "2026-05-27T08:00:00Z",
           "gameManifest": {
             "entry": "index.html",
-            "type": "singleplayer"
+            "type": "singleplayer",
+            "manifestVersion": 2
+          },
+          "localizations": {
+            "zh-CN": {
+              "description": "极简文字冒险 — 在寒冷黑暗中生火、建造、探索，故事远超你的想象！"
+            },
+            "zh-TW": {
+              "description": "極簡文字冒險 — 在寒冷黑暗中生火、建造、探索，故事遠超乎你的想像！"
+            },
+            "en-US": {
+              "description": "Minimalist text adventure - make fires, build, and explore in the cold darkness, the story is far beyond your imagination!"
+            },
+            "ja-JP": {
+              "description": "ミニマリストのテキスト アドベンチャー - 冷たい暗闇の中で火を起こし、建築し、探索します。ストーリーはあなたの想像をはるかに超えています。"
+            },
+            "de-DE": {
+              "description": "Minimalistisches Textabenteuer – mache Feuer, baue und erkunde die kalte Dunkelheit, die Geschichte geht weit über deine Vorstellungskraft hinaus!"
+            }
           }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "A Dark Room",
+          "summary": "极简主义文字冒险 RPG — 从生火取暖开始，逐步揭开神秘世界的面纱！",
+          "tags": [
+            "冒险",
+            "文字",
+            "RPG",
+            "生存",
+            "极简"
+          ]
+        },
+        "zh-TW": {
+          "name": "A Dark Room",
+          "summary": "極簡主義文字冒險 RPG — 從生火取暖開始，逐步揭開神秘世界的面紗！",
+          "tags": [
+            "冒險",
+            "文字",
+            "RPG",
+            "生存",
+            "極簡"
+          ]
+        },
+        "en-US": {
+          "name": "A Dark Room",
+          "summary": "Minimalist text adventure RPG - Start by lighting a fire to keep warm, and gradually uncover the mysterious world!",
+          "tags": [
+            "adventure",
+            "text",
+            "RPG",
+            "Survive",
+            "minimalist"
+          ]
+        },
+        "ja-JP": {
+          "name": "暗い部屋",
+          "summary": "ミニマルなテキストアドベンチャー RPG - 暖をとるために火を焚くことから始めて、徐々に不思議な世界を明らかにしてください!",
+          "tags": [
+            "冒険",
+            "テキスト",
+            "RPG",
+            "生き残る",
+            "ミニマリスト"
+          ]
+        },
+        "de-DE": {
+          "name": "Ein dunkler Raum",
+          "summary": "Minimalistisches Text-Adventure-Rollenspiel – Beginnen Sie damit, ein Feuer anzuzünden, um sich warm zu halten, und entdecken Sie nach und nach die mysteriöse Welt!",
+          "tags": [
+            "Abenteuer",
+            "Text",
+            "Rollenspiel",
+            "Überlebe",
+            "minimalistisch"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.trexrunner",
-      "name": "T-Rex Runner",
       "author": "Wayou",
       "author_url": "https://github.com/wayou",
       "type": "singleplayer",
-      "summary": "Chrome 小恐龙跑酷网页版 — 跳跃躲避仙人掌，看看你能跑多远！",
-      "tags": [
-        "跑酷",
-        "街机",
-        "休闲",
-        "像素"
-      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
         {
           "version": "1.0.0",
-          "description": "Chrome 断网小恐龙跑酷 — 点击/空格跳跃，躲避障碍物，挑战最长距离！",
           "platformVersion": ">=2.1.5",
           "downloadUrl": "https://github.com/wayou/t-rex-runner/archive/refs/heads/gh-pages.zip",
           "sha256": "E4B8A9792CC3DD9403B6493990AC9D58CFD06E21D2F14DCCA78A6F26D9A01E9A",
           "size": 2068487,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "publishedAt": "2026-05-27T08:00:00Z",
           "gameManifest": {
             "entry": "index.html",
-            "type": "singleplayer"
+            "type": "singleplayer",
+            "manifestVersion": 2
+          },
+          "localizations": {
+            "zh-CN": {
+              "description": "Chrome 断网小恐龙跑酷 — 点击/空格跳跃，躲避障碍物，挑战最长距离！"
+            },
+            "zh-TW": {
+              "description": "Chrome 斷網小恐龍跑酷 — 點擊/空格跳躍，躲避障礙物，挑戰最長距離！"
+            },
+            "en-US": {
+              "description": "Chrome disconnected dinosaur parkour - click/space to jump, avoid obstacles, and challenge the longest distance!"
+            },
+            "ja-JP": {
+              "description": "Chrome の切断された恐竜パルクール - クリック/スペースでジャンプし、障害物を避け、最長距離に挑戦してください!"
+            },
+            "de-DE": {
+              "description": "Chrome-Disconnected-Dinosaurier-Parkour – Klicken/Leertaste, um zu springen, Hindernissen auszuweichen und die längste Distanz herauszufordern!"
+            }
           }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "T-Rex Runner",
+          "summary": "Chrome 小恐龙跑酷网页版 — 跳跃躲避仙人掌，看看你能跑多远！",
+          "tags": [
+            "跑酷",
+            "街机",
+            "休闲",
+            "像素"
+          ]
+        },
+        "zh-TW": {
+          "name": "T-Rex Runner",
+          "summary": "Chrome 小恐龍跑酷網頁版 — 跳躍躲避仙人掌，看看你能跑多遠！",
+          "tags": [
+            "跑酷",
+            "街機",
+            "休閒",
+            "像素"
+          ]
+        },
+        "en-US": {
+          "name": "T-Rex Runner",
+          "summary": "Chrome Dinosaur Parkour web version — jump to avoid cacti and see how far you can run!",
+          "tags": [
+            "Parkour",
+            "Arcade",
+            "Leisure",
+            "Pixel"
+          ]
+        },
+        "ja-JP": {
+          "name": "ティラノサウルス ランナー",
+          "summary": "Chrome Dinosaur Parkour ウェブ バージョン — ジャンプしてサボテンを避け、どこまで走れるか試してみましょう!",
+          "tags": [
+            "パルクール",
+            "アーケード",
+            "レジャー",
+            "ピクセル"
+          ]
+        },
+        "de-DE": {
+          "name": "T-Rex-Läufer",
+          "summary": "Chrome Dinosaur Parkour-Webversion – springen Sie, um Kakteen auszuweichen, und sehen Sie, wie weit Sie laufen können!",
+          "tags": [
+            "Parkour",
+            "Arcade",
+            "Freizeit",
+            "Pixel"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.astray",
-      "name": "Astray",
       "author": "Rye Terrell",
       "author_url": "https://github.com/wwwtyro",
       "type": "singleplayer",
-      "summary": "WebGL 3D 迷宫冒险 — 在逼真的三维迷宫中寻找出路，沉浸式解谜体验！",
-      "tags": [
-        "3D",
-        "迷宫",
-        "解谜",
-        "第一人称"
-      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
         {
           "version": "1.0.0",
-          "description": "3D 第一人称迷宫 — WASD 移动 + 鼠标视角，在光影交错的迷宫中找到出口！",
           "platformVersion": ">=2.1.5",
           "downloadUrl": "https://github.com/wwwtyro/Astray/archive/refs/heads/gh-pages.zip",
           "sha256": "B14FAE6F2E40D4D7D5CB15100BAF07B17741EB546F855A968809FC95869DF59E",
           "size": 1093019,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "publishedAt": "2026-05-27T08:00:00Z",
           "gameManifest": {
             "entry": "index.html",
-            "type": "singleplayer"
+            "type": "singleplayer",
+            "manifestVersion": 2
+          },
+          "localizations": {
+            "zh-CN": {
+              "description": "3D 第一人称迷宫 — WASD 移动 + 鼠标视角，在光影交错的迷宫中找到出口！"
+            },
+            "zh-TW": {
+              "description": "3D 第一人稱迷宮 — WASD 移動 + 老鼠視角，在光影交錯的迷宮中找到出口！"
+            },
+            "en-US": {
+              "description": "3D first-person maze - WASD movement + mouse perspective, find the exit in the maze of light and shadow!"
+            },
+            "ja-JP": {
+              "description": "3D 一人称迷路 - WASD 移動 + マウス視点、光と影の迷路で出口を見つけてください!"
+            },
+            "de-DE": {
+              "description": "3D-Ego-Labyrinth – WASD-Bewegung + Mausperspektive, finde den Ausgang im Labyrinth aus Licht und Schatten!"
+            }
           }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "Astray",
+          "summary": "WebGL 3D 迷宫冒险 — 在逼真的三维迷宫中寻找出路，沉浸式解谜体验！",
+          "tags": [
+            "3D",
+            "迷宫",
+            "解谜",
+            "第一人称"
+          ]
+        },
+        "zh-TW": {
+          "name": "Astray",
+          "summary": "WebGL 3D 迷宮冒險 — 在逼真的立體迷宮中尋找出路，沉浸式解謎體驗！",
+          "tags": [
+            "3D",
+            "迷宮",
+            "解謎",
+            "第一人稱"
+          ]
+        },
+        "en-US": {
+          "name": "Astray",
+          "summary": "WebGL 3D Maze Adventure - Find your way through a realistic 3D maze for an immersive puzzle-solving experience!",
+          "tags": [
+            "3D",
+            "maze",
+            "Solve puzzles",
+            "first person"
+          ]
+        },
+        "ja-JP": {
+          "name": "アストレイ",
+          "summary": "WebGL 3D 迷路アドベンチャー - 現実的な 3D 迷路を進み、没入型のパズル解決体験を見つけてください。",
+          "tags": [
+            "3D",
+            "迷路",
+            "パズルを解く",
+            "一人称"
+          ]
+        },
+        "de-DE": {
+          "name": "Irre",
+          "summary": "WebGL 3D-Labyrinth-Abenteuer – Finden Sie Ihren Weg durch ein realistisches 3D-Labyrinth für ein fesselndes Rätsellösungserlebnis!",
+          "tags": [
+            "3D",
+            "Labyrinth",
+            "Rätsel lösen",
+            "erste Person"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.hexgl",
-      "name": "HexGL",
       "author": "Thibaut Despoulain",
       "author_url": "https://github.com/BKcore",
       "type": "singleplayer",
-      "summary": "未来风格 WebGL 极速赛车 — 驾驶反重力飞船在科幻赛道漂移，1.7k Star 神作！",
-      "tags": [
-        "赛车",
-        "3D",
-        "WebGL",
-        "科幻",
-        "竞速"
-      ],
       "featured": true,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
         {
           "version": "1.0.0",
-          "description": "未来风格反重力赛车 — WASD/方向键操控，在炫酷的科幻赛道上挑战最快圈速！",
           "platformVersion": ">=2.1.5",
           "downloadUrl": "https://github.com/BKcore/HexGL/archive/refs/heads/master.zip",
           "sha256": "5ABF0DCE78625D49CBD842B2E9B28B5814BA7C92F4065947F04BBA8AA0FB0FEF",
           "size": 16947473,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "publishedAt": "2026-05-27T08:00:00Z",
           "gameManifest": {
             "entry": "index.html",
-            "type": "singleplayer"
+            "type": "singleplayer",
+            "manifestVersion": 2
+          },
+          "localizations": {
+            "zh-CN": {
+              "description": "未来风格反重力赛车 — WASD/方向键操控，在炫酷的科幻赛道上挑战最快圈速！"
+            },
+            "zh-TW": {
+              "description": "未來風格反重力賽車 — WASD/方向鍵操控，在酷炫的科幻賽道上挑戰最快圈速！"
+            },
+            "en-US": {
+              "description": "Futuristic anti-gravity racing - WASD/direction key control, challenge the fastest lap on the cool sci-fi track!"
+            },
+            "ja-JP": {
+              "description": "未来的な反重力レーシング - WASD/方向キー制御、クールな SF トラックで最速ラップに挑戦!"
+            },
+            "de-DE": {
+              "description": "Futuristisches Anti-Schwerkraft-Rennen – WASD-/Richtungstastensteuerung, fordern Sie die schnellste Runde auf der coolen Science-Fiction-Strecke heraus!"
+            }
           }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "HexGL",
+          "summary": "未来风格 WebGL 极速赛车 — 驾驶反重力飞船在科幻赛道漂移，1.7k Star 神作！",
+          "tags": [
+            "赛车",
+            "3D",
+            "WebGL",
+            "科幻",
+            "竞速"
+          ]
+        },
+        "zh-TW": {
+          "name": "HexGL",
+          "summary": "未來風格 WebGL 極速賽車 — 駕駛反重力太空船在科幻賽道漂移，1.7k Star 神作！",
+          "tags": [
+            "賽車",
+            "3D",
+            "WebGL",
+            "科幻",
+            "競速"
+          ]
+        },
+        "en-US": {
+          "name": "HexGL",
+          "summary": "Futuristic WebGL Speed Racing - Driving an anti-gravity spaceship to drift on a sci-fi track, 1.7k Star masterpiece!",
+          "tags": [
+            "racing",
+            "3D",
+            "WebGL",
+            "science fiction",
+            "racing"
+          ]
+        },
+        "ja-JP": {
+          "name": "HexGL",
+          "summary": "未来的な WebGL スピード レーシング - 反重力宇宙船を運転して SF トラックをドリフトする、1.7k スターの傑作!",
+          "tags": [
+            "レーシング",
+            "3D",
+            "WebGL",
+            "サイエンスフィクション",
+            "レーシング"
+          ]
+        },
+        "de-DE": {
+          "name": "HexGL",
+          "summary": "Futuristisches WebGL-Speed-Rennen – Fahren Sie ein Anti-Schwerkraft-Raumschiff, um auf einer Science-Fiction-Strecke zu driften, ein 1,7k-Star-Meisterwerk!",
+          "tags": [
+            "Rennen",
+            "3D",
+            "WebGL",
+            "Science-Fiction",
+            "Rennen"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.beatrix",
-      "name": "Beatrix",
       "author": "congusbongus",
       "author_url": "https://github.com/cxong",
       "type": "singleplayer",
-      "summary": "低像素音乐节奏解谜 — 拖动鼓面匹配节奏，在复古像素画风中感受音乐魅力！",
-      "tags": [
-        "音乐",
-        "节奏",
-        "解谜",
-        "像素",
-        "休闲"
-      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
         {
           "version": "1.0.0",
-          "description": "LOWREZ 游戏 Jam 获奖作品 — 拖拽鼓面匹配节拍，用音乐破解每一关的谜题！",
           "platformVersion": ">=2.1.5",
           "downloadUrl": "https://github.com/cxong/Beatrix/archive/refs/heads/master.zip",
           "sha256": "400D895F17BAB137EE7D983083D954914B2B2FAC85F39F165A40642B11A59FDC",
           "size": 385981,
-          "publishedAt": "2026-05-27T08:00:00.000Z",
+          "publishedAt": "2026-05-27T08:00:00Z",
           "gameManifest": {
             "entry": "index.html",
-            "type": "singleplayer"
+            "type": "singleplayer",
+            "manifestVersion": 2
+          },
+          "localizations": {
+            "zh-CN": {
+              "description": "LOWREZ 游戏 Jam 获奖作品 — 拖拽鼓面匹配节拍，用音乐破解每一关的谜题！"
+            },
+            "zh-TW": {
+              "description": "LOWREZ 遊戲 Jam 得獎作品 — 拖曳鼓面配對節拍，用音樂破解每一關的謎題！"
+            },
+            "en-US": {
+              "description": "The award-winning LOWREZ Game Jam - drag the drumhead to match the beat and use music to solve each level's puzzles!"
+            },
+            "ja-JP": {
+              "description": "受賞歴のある LOWREZ ゲーム ジャム - ビートに合わせてドラムヘッドをドラッグし、音楽を使って各レベルのパズルを解きましょう!"
+            },
+            "de-DE": {
+              "description": "Der preisgekrönte LOWREZ Game Jam – ziehen Sie das Trommelfell passend zum Takt und nutzen Sie Musik, um die Rätsel jedes Levels zu lösen!"
+            }
           }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "Beatrix",
+          "summary": "低像素音乐节奏解谜 — 拖动鼓面匹配节奏，在复古像素画风中感受音乐魅力！",
+          "tags": [
+            "音乐",
+            "节奏",
+            "解谜",
+            "像素",
+            "休闲"
+          ]
+        },
+        "zh-TW": {
+          "name": "Beatrix",
+          "summary": "低像素音樂節奏解謎 — 拖曳鼓面匹配節奏，在復古像素畫風中感受音樂魅力！",
+          "tags": [
+            "音樂",
+            "節奏",
+            "解謎",
+            "像素",
+            "休閒"
+          ]
+        },
+        "en-US": {
+          "name": "Beatrix",
+          "summary": "Low-pixel music rhythm puzzle - drag the drum head to match the rhythm and feel the charm of music in the retro pixel art style!",
+          "tags": [
+            "music",
+            "Rhythm",
+            "Solve puzzles",
+            "Pixel",
+            "Leisure"
+          ]
+        },
+        "ja-JP": {
+          "name": "ベアトリクス",
+          "summary": "低ピクセル音楽リズムパズル - ドラムヘッドをドラッグしてリズムに合わせ、レトロなピクセルアートスタイルで音楽の魅力を感じてください。",
+          "tags": [
+            "音楽",
+            "リズム",
+            "パズルを解く",
+            "ピクセル",
+            "レジャー"
+          ]
+        },
+        "de-DE": {
+          "name": "Beatrix",
+          "summary": "Musik-Rhythmus-Puzzle mit niedrigen Pixeln – ziehen Sie das Trommelfell, um es an den Rhythmus anzupassen, und spüren Sie den Charme der Musik im Retro-Pixel-Art-Stil!",
+          "tags": [
+            "Musik",
+            "Rhythmus",
+            "Rätsel lösen",
+            "Pixel",
+            "Freizeit"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.shapezio",
-      "name": "shapez-community-edition",
       "author": "tobspr Games",
       "author_url": "https://github.com/tobspr-games",
       "type": "singleplayer",
-      "summary": "开源自动化工厂建造游戏 — 挖掘、运输、合并形状，打造全自动流水线！",
-      "tags": [
-        "模拟",
-        "建造",
-        "自动化",
-        "工厂",
-        "沙盒"
-      ],
       "featured": true,
       "visibility": "public",
       "latestVersion": "1.6.0",
       "versions": [
         {
           "version": "1.6.0",
-          "description": "开源工厂建造神作 — 从采矿开始，构建传送带网络，自动化生产各种形状！",
           "platformVersion": ">=2.1.5",
           "sha256": "c798bd8d5a60b2602486c1fa3b78879798ffa4b8fd5509a3b0cb99c1bb57d63c",
           "size": 565388753,
-          "publishedAt": "2026-06-09T13:20:11.000Z",
-          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/shapez/v1.6.0/shapez.zip"
+          "publishedAt": "2026-06-09T13:20:11Z",
+          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/shapez/v1.6.0/shapez.zip",
+          "localizations": {
+            "zh-CN": {
+              "description": "开源工厂建造神作 — 从采矿开始，构建传送带网络，自动化生产各种形状！"
+            },
+            "zh-TW": {
+              "description": "開源工廠建造神作 — 從採礦開始，建立傳送帶網絡，自動化生產各種形狀！"
+            },
+            "en-US": {
+              "description": "An open source factory building masterpiece - start with mining, build a conveyor belt network, and automate the production of various shapes!"
+            },
+            "ja-JP": {
+              "description": "オープンソースの工場構築の傑作 - 採掘から始めて、ベルトコンベア ネットワークを構築し、さまざまな形状の生産を自動化します。"
+            },
+            "de-DE": {
+              "description": "Ein Open-Source-Meisterwerk im Fabrikbau – beginnen Sie mit dem Bergbau, bauen Sie ein Förderbandnetzwerk auf und automatisieren Sie die Produktion verschiedener Formen!"
+            }
+          }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "shapez-community-edition",
+          "summary": "开源自动化工厂建造游戏 — 挖掘、运输、合并形状，打造全自动流水线！",
+          "tags": [
+            "模拟",
+            "建造",
+            "自动化",
+            "工厂",
+            "沙盒"
+          ]
+        },
+        "zh-TW": {
+          "name": "shapez-community-edition",
+          "summary": "開源自動化工廠建造遊戲 — 挖掘、運輸、合併形狀，打造全自動流水線！",
+          "tags": [
+            "模擬",
+            "建造",
+            "自動化",
+            "工廠",
+            "沙盒"
+          ]
+        },
+        "en-US": {
+          "name": "shapez-community-edition",
+          "summary": "Open source automated factory construction game - dig, transport, merge shapes to create a fully automated assembly line!",
+          "tags": [
+            "Simulation",
+            "build",
+            "Automation",
+            "factory",
+            "sandbox"
+          ]
+        },
+        "ja-JP": {
+          "name": "シェイプズ-コミュニティ エディション",
+          "summary": "オープンソースの自動工場建設ゲーム - 掘削、輸送、形状の結合を行って、完全に自動化された組立ラインを作成します。",
+          "tags": [
+            "シミュレーション",
+            "構築する",
+            "自動化",
+            "工場",
+            "サンドボックス"
+          ]
+        },
+        "de-DE": {
+          "name": "Shapez-Community-Edition",
+          "summary": "Open-Source-Spiel zum automatisierten Fabrikbau – graben, transportieren, Formen zusammenfügen, um eine vollautomatische Montagelinie zu erstellen!",
+          "tags": [
+            "Simulation",
+            "bauen",
+            "Automatisierung",
+            "Fabrik",
+            "Sandkasten"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.mindustry",
-      "name": "Mindustry",
       "author": "Anuken",
       "author_url": "https://github.com/Anuken",
       "type": "singleplayer",
-      "summary": "开源工厂塔防游戏 — 建造自动化流水线，采集资源研发科技，抵御敌人进攻！",
-      "tags": [
-        "塔防",
-        "建造",
-        "工厂",
-        "沙盒",
-        "策略",
-        "自动化"
-      ],
       "iconUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/icon.png",
       "coverUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/cover.png",
       "featured": true,
@@ -285,111 +782,383 @@
       "versions": [
         {
           "version": "158.1.0",
-          "description": "开源工厂塔防神作 — 建造传送带和钻头，打造自动化工业帝国，抵御一波波敌人进攻！支持自定义地图和多人联机。",
           "platformVersion": ">=2.1.5",
           "sha256": "06ef1af15762178bea82395c060b9f4e46c0e4d67364c22ec57fe20fefb035fd",
           "size": 396954755,
-          "publishedAt": "2026-06-09T12:54:41.000Z",
-          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/v158.1.0/Mindustry.zip"
+          "publishedAt": "2026-06-09T12:54:41Z",
+          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Mindustry/v158.1.0/Mindustry.zip",
+          "localizations": {
+            "zh-CN": {
+              "description": "开源工厂塔防神作 — 建造传送带和钻头，打造自动化工业帝国，抵御一波波敌人进攻！支持自定义地图和多人联机。"
+            },
+            "zh-TW": {
+              "description": "開源工廠塔防神作 — 建造傳送帶和鑽頭，打造自動化工業帝國，抵禦一波波敵人進攻！支援自訂地圖和多人線上。"
+            },
+            "en-US": {
+              "description": "The open source factory tower defense masterpiece - build conveyor belts and drills, build an automated industrial empire, and resist waves of enemy attacks! Supports custom maps and multiplayer online."
+            },
+            "ja-JP": {
+              "description": "オープンソースのファクトリータワーディフェンスの傑作 - コンベヤーベルトとドリルを構築し、自動化された産業帝国を構築し、敵の攻撃の波に抵抗しましょう!カスタム マップとオンライン マルチプレイヤーをサポートします。"
+            },
+            "de-DE": {
+              "description": "Das Open-Source-Fabrik-Tower-Defense-Meisterwerk – Bauen Sie Förderbänder und Bohrer, bauen Sie ein automatisiertes Industrieimperium auf und widerstehen Sie Wellen feindlicher Angriffe! Unterstützt benutzerdefinierte Karten und Online-Mehrspielermodus."
+            }
+          }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "Mindustry",
+          "summary": "开源工厂塔防游戏 — 建造自动化流水线，采集资源研发科技，抵御敌人进攻！",
+          "tags": [
+            "塔防",
+            "建造",
+            "工厂",
+            "沙盒",
+            "策略",
+            "自动化"
+          ]
+        },
+        "zh-TW": {
+          "name": "Mindustry",
+          "summary": "開源工廠塔防遊戲 — 建造自動化流水線，收集資源研發科技，抵禦敵人進攻！",
+          "tags": [
+            "塔防",
+            "建造",
+            "工廠",
+            "沙盒",
+            "策略",
+            "自動化"
+          ]
+        },
+        "en-US": {
+          "name": "Mindustry",
+          "summary": "Open source factory tower defense game - build automated assembly lines, collect resources to develop technology, and resist enemy attacks!",
+          "tags": [
+            "tower defense",
+            "build",
+            "factory",
+            "sandbox",
+            "Strategy",
+            "Automation"
+          ]
+        },
+        "ja-JP": {
+          "name": "産業",
+          "summary": "オープンソースの工場タワー ディフェンス ゲーム - 自動化された組立ラインを構築し、テクノロジーを開発するためのリソースを収集し、敵の攻撃に抵抗します。",
+          "tags": [
+            "タワーディフェンス",
+            "構築する",
+            "工場",
+            "サンドボックス",
+            "戦略",
+            "自動化"
+          ]
+        },
+        "de-DE": {
+          "name": "Industrie",
+          "summary": "Open-Source-Fabrik-Tower-Defense-Spiel – Bauen Sie automatisierte Montagelinien, sammeln Sie Ressourcen zur Entwicklung von Technologie und widerstehen Sie feindlichen Angriffen!",
+          "tags": [
+            "Turmverteidigung",
+            "bauen",
+            "Fabrik",
+            "Sandkasten",
+            "Strategie",
+            "Automatisierung"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.opengolf",
-      "name": "Open Golf",
       "author": "mgerdes",
       "author_url": "https://github.com/mgerdes",
       "type": "networkgame",
-      "summary": "开源迷你高尔夫网页游戏 — 像素风格，多球洞挑战，在浏览器中享受高尔夫乐趣！",
-      "tags": [
-        "体育",
-        "高尔夫",
-        "像素",
-        "休闲",
-        "网页"
-      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
         {
           "version": "1.0.0",
-          "description": "开源迷你高尔夫 — 像素风格多球洞挑战，瞄准力度精确挥杆！",
           "platformVersion": ">=1.9.4",
           "sha256": "aed22f93b1d4eeabfff19e92d6e5feb39bb90112114d3381f906a3a0dbbd1b6d",
           "size": 602,
-          "publishedAt": "2026-06-08T08:51:49.000Z",
-          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Open-Golf/v1.0.0/Open-Golf.zip"
+          "publishedAt": "2026-06-08T08:51:49Z",
+          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/Open-Golf/v1.0.0/Open-Golf.zip",
+          "localizations": {
+            "zh-CN": {
+              "description": "开源迷你高尔夫 — 像素风格多球洞挑战，瞄准力度精确挥杆！"
+            },
+            "zh-TW": {
+              "description": "開源迷你高爾夫 — 像素風格多球洞挑戰，瞄準力道精準揮桿！"
+            },
+            "en-US": {
+              "description": "Open source mini golf - pixel style multi-hole challenge, aim for precise swings!"
+            },
+            "ja-JP": {
+              "description": "オープンソースのミニゴルフ - ピクセルスタイルのマルチホールチャレンジ、正確なスイングを目指しましょう!"
+            },
+            "de-DE": {
+              "description": "Open-Source-Minigolf – Multi-Loch-Herausforderung im Pixel-Stil, zielen Sie auf präzise Schwünge!"
+            }
+          }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "Open Golf",
+          "summary": "开源迷你高尔夫网页游戏 — 像素风格，多球洞挑战，在浏览器中享受高尔夫乐趣！",
+          "tags": [
+            "体育",
+            "高尔夫",
+            "像素",
+            "休闲",
+            "网页"
+          ]
+        },
+        "zh-TW": {
+          "name": "Open Golf",
+          "summary": "開源迷你高爾夫網頁遊戲 — 像素風格，多球洞挑戰，在瀏覽器中享受高爾夫樂趣！",
+          "tags": [
+            "體育",
+            "高爾夫",
+            "像素",
+            "休閒",
+            "網頁"
+          ]
+        },
+        "en-US": {
+          "name": "Open Golf",
+          "summary": "Open source mini golf web game - pixel style, multi-hole challenges, enjoy golf in your browser!",
+          "tags": [
+            "sports",
+            "golf",
+            "Pixel",
+            "Leisure",
+            "web page"
+          ]
+        },
+        "ja-JP": {
+          "name": "オープンゴルフ",
+          "summary": "オープンソースのミニゴルフ Web ゲーム - ピクセル スタイル、マルチホール チャレンジ、ブラウザでゴルフをお楽しみください。",
+          "tags": [
+            "スポーツ",
+            "ゴルフ",
+            "ピクセル",
+            "レジャー",
+            "ウェブページ"
+          ]
+        },
+        "de-DE": {
+          "name": "Offenes Golf",
+          "summary": "Open-Source-Minigolf-Webspiel – Pixel-Stil, Multi-Loch-Herausforderungen, genießen Sie Golf in Ihrem Browser!",
+          "tags": [
+            "Sport",
+            "Golf",
+            "Pixel",
+            "Freizeit",
+            "Webseite"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.youretheos",
-      "name": "youre-the-os",
       "author": "plbrault",
       "author_url": "https://github.com/plbrault",
       "type": "networkgame",
-      "summary": "模拟操作系统网页游戏 — 扮演操作系统，管理进程、处理中断、调度资源，体验 OS 内核的日常！",
-      "tags": [
-        "模拟",
-        "教育",
-        "操作系统",
-        "策略",
-        "网页"
-      ],
       "featured": false,
       "visibility": "public",
       "latestVersion": "1.11.0",
       "versions": [
         {
           "version": "1.11.0",
-          "description": "模拟操作系统网页游戏 — 扮演操作系统，管理进程、处理中断、调度资源，体验 OS 内核的日常！",
           "platformVersion": ">=2.1.5",
           "sha256": "1e82bb6e6050ec7c80c928c516366bf7a742fb128cc089fd1a5500a5e16fb905",
           "size": 631,
-          "publishedAt": "2026-06-09T12:06:09.000Z",
-          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/youre-the-os/v1.11.0/youre-the-os.zip"
+          "publishedAt": "2026-06-09T12:06:09Z",
+          "downloadUrl": "http://cdn.bzgames.top/bz-games-third-party-market/youre-the-os/v1.11.0/youre-the-os.zip",
+          "localizations": {
+            "zh-CN": {
+              "description": "模拟操作系统网页游戏 — 扮演操作系统，管理进程、处理中断、调度资源，体验 OS 内核的日常！"
+            },
+            "zh-TW": {
+              "description": "模擬作業系統網頁遊戲 — 扮演作業系統，管理行程、處理中斷、排程資源，體驗 OS 核心的日常！"
+            },
+            "en-US": {
+              "description": "Simulation operating system web game - play the role of an operating system, manage processes, handle interrupts, schedule resources, and experience the daily life of the OS kernel!"
+            },
+            "ja-JP": {
+              "description": "シミュレーション オペレーティング システム Web ゲーム - オペレーティング システムの役割を果たし、プロセスを管理し、割り込みを処理し、リソースをスケジュールし、OS カーネルの日常生活を体験してください。"
+            },
+            "de-DE": {
+              "description": "Simulation eines Betriebssystem-Webspiels – schlüpfen Sie in die Rolle eines Betriebssystems, verwalten Sie Prozesse, verarbeiten Sie Interrupts, planen Sie Ressourcen und erleben Sie den Alltag des Betriebssystemkernels!"
+            }
+          }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "youre-the-os",
+          "summary": "模拟操作系统网页游戏 — 扮演操作系统，管理进程、处理中断、调度资源，体验 OS 内核的日常！",
+          "tags": [
+            "模拟",
+            "教育",
+            "操作系统",
+            "策略",
+            "网页"
+          ]
+        },
+        "zh-TW": {
+          "name": "youre-the-os",
+          "summary": "模擬作業系統網頁遊戲 — 扮演作業系統，管理行程、處理中斷、排程資源，體驗 OS 核心的日常！",
+          "tags": [
+            "模擬",
+            "教育",
+            "作業系統",
+            "策略",
+            "網頁"
+          ]
+        },
+        "en-US": {
+          "name": "youre-the-os",
+          "summary": "Simulation operating system web game - play the role of an operating system, manage processes, handle interrupts, schedule resources, and experience the daily life of the OS kernel!",
+          "tags": [
+            "Simulation",
+            "education",
+            "operating system",
+            "Strategy",
+            "web page"
+          ]
+        },
+        "ja-JP": {
+          "name": "あなたはOSです",
+          "summary": "シミュレーション オペレーティング システム Web ゲーム - オペレーティング システムの役割を果たし、プロセスを管理し、割り込みを処理し、リソースをスケジュールし、OS カーネルの日常生活を体験してください。",
+          "tags": [
+            "シミュレーション",
+            "教育",
+            "オペレーティングシステム",
+            "戦略",
+            "ウェブページ"
+          ]
+        },
+        "de-DE": {
+          "name": "du bist-das-os",
+          "summary": "Simulation eines Betriebssystem-Webspiels – schlüpfen Sie in die Rolle eines Betriebssystems, verwalten Sie Prozesse, verarbeiten Sie Interrupts, planen Sie Ressourcen und erleben Sie den Alltag des Betriebssystemkernels!",
+          "tags": [
+            "Simulation",
+            "Bildung",
+            "Betriebssystem",
+            "Strategie",
+            "Webseite"
+          ]
+        }
+      }
     },
     {
       "id": "com.bztp.cybercode",
-      "name": "CyberCode Online",
       "author": "DexterHuang",
       "author_url": "https://github.com/DexterHuang",
       "type": "networkgame",
-      "summary": "开源赛博朋克文字 MMORPG — 废土世界探索、装备制造、副本刷宝、聊天社交，浏览器即玩的在线角色扮演！",
-      "tags": [
-        "MMORPG",
-        "文字",
-        "赛博朋克",
-        "社交",
-        "网页"
-      ],
       "featured": true,
       "visibility": "public",
       "latestVersion": "1.0.0",
       "versions": [
         {
           "version": "1.0.0",
-          "description": "开源赛博朋克文字 MMORPG — 废土世界探索、装备制造、副本刷宝、聊天社交，浏览器即玩的在线角色扮演！",
           "platformVersion": ">=2.1.5",
-          "publishedAt": "2026-06-10T08:00:00.000Z"
+          "publishedAt": "2026-06-10T08:00:00Z",
+          "localizations": {
+            "zh-CN": {
+              "description": "开源赛博朋克文字 MMORPG — 废土世界探索、装备制造、副本刷宝、聊天社交，浏览器即玩的在线角色扮演！"
+            },
+            "zh-TW": {
+              "description": "開源賽博龐克文字 MMORPG — 廢土世界探索、裝備製造、副本刷寶、聊天社交，瀏覽器即玩的線上角色扮演！"
+            },
+            "en-US": {
+              "description": "Open source cyberpunk text MMORPG - wasteland world exploration, equipment manufacturing, dungeon farming, chatting and socializing, online role-playing that can be played in the browser!"
+            },
+            "ja-JP": {
+              "description": "オープンソースのサイバーパンク テキスト MMORPG - ウェイストランド世界の探索、装備製造、ダンジョン農業、チャットや交流、ブラウザーでプレイできるオンライン ロールプレイング!"
+            },
+            "de-DE": {
+              "description": "Open-Source-Cyberpunk-Text-MMORPG – Erkundung der Ödlandwelt, Herstellung von Ausrüstung, Dungeon-Farming, Chatten und Geselligkeit, Online-Rollenspiel, das im Browser gespielt werden kann!"
+            }
+          },
+          "gameManifest": {
+            "manifestVersion": 2,
+            "entry": "url",
+            "web_url": "https://cybercodeonline.com/"
+          }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "CyberCode Online",
+          "summary": "开源赛博朋克文字 MMORPG — 废土世界探索、装备制造、副本刷宝、聊天社交，浏览器即玩的在线角色扮演！",
+          "tags": [
+            "MMORPG",
+            "文字",
+            "赛博朋克",
+            "社交",
+            "网页"
+          ]
+        },
+        "zh-TW": {
+          "name": "CyberCode Online",
+          "summary": "開源賽博龐克文字 MMORPG — 廢土世界探索、裝備製造、副本刷寶、聊天社交，瀏覽器即玩的線上角色扮演！",
+          "tags": [
+            "MMORPG",
+            "文字",
+            "賽博朋克",
+            "社群",
+            "網頁"
+          ]
+        },
+        "en-US": {
+          "name": "CyberCode Online",
+          "summary": "Open source cyberpunk text MMORPG - wasteland world exploration, equipment manufacturing, dungeon farming, chatting and socializing, online role-playing that can be played in the browser!",
+          "tags": [
+            "MMORPG",
+            "text",
+            "cyberpunk",
+            "social",
+            "web page"
+          ]
+        },
+        "ja-JP": {
+          "name": "サイバーコードオンライン",
+          "summary": "オープンソースのサイバーパンク テキスト MMORPG - ウェイストランド世界の探索、装備製造、ダンジョン農業、チャットや交流、ブラウザーでプレイできるオンライン ロールプレイング!",
+          "tags": [
+            "MMORPG",
+            "テキスト",
+            "サイバーパンク",
+            "社会的",
+            "ウェブページ"
+          ]
+        },
+        "de-DE": {
+          "name": "CyberCode Online",
+          "summary": "Open-Source-Cyberpunk-Text-MMORPG – Erkundung der Ödlandwelt, Herstellung von Ausrüstung, Dungeon-Farming, Chatten und Geselligkeit, Online-Rollenspiel, das im Browser gespielt werden kann!",
+          "tags": [
+            "MMORPG",
+            "Text",
+            "Cyberpunk",
+            "sozial",
+            "Webseite"
+          ]
+        }
+      }
     },
     {
       "id": "com.wwhdsone.long",
-      "name": "大海世界",
       "author": "WwhdsOne",
       "author_url": "https://github.com/WwhdsOne",
       "type": "networkgame",
-      "summary": "点就完事了！",
-      "tags": [
-        "休闲",
-        "网页",
-        "点击"
-      ],
       "iconUrl": "http://cdn.bzgames.top/bz-games-market/%E5%A4%A7%E6%B5%B7%E4%B8%96%E7%95%8C/icon.png",
       "coverUrl": "http://cdn.bzgames.top/bz-games-market/%E5%A4%A7%E6%B5%B7%E4%B8%96%E7%95%8C/cover.png",
       "featured": false,
@@ -398,14 +1167,78 @@
       "versions": [
         {
           "version": "1.0.0",
-          "description": "大海世界 — 点就完事了！",
           "platformVersion": ">=1.9.4",
           "downloadUrl": "http://cdn.bzgames.top/bz-games-market/%E5%A4%A7%E6%B5%B7%E4%B8%96%E7%95%8C/v1.0.0/%E5%A4%A7%E6%B5%B7%E4%B8%96%E7%95%8C.zip",
           "sha256": "19b07d7a9906cc13358825e0b306fbd4a195185e642e42d95a30cdf42d0ec542",
           "size": 7175281,
-          "publishedAt": "2026-05-15T12:00:00.000Z"
+          "publishedAt": "2026-05-15T12:00:00Z",
+          "localizations": {
+            "zh-CN": {
+              "description": "大海世界 — 点就完事了！"
+            },
+            "zh-TW": {
+              "description": "大海世界 — 點就完事了！"
+            },
+            "en-US": {
+              "description": "Sea World - just click and it's done!"
+            },
+            "ja-JP": {
+              "description": "シーワールド - クリックするだけで完了です。"
+            },
+            "de-DE": {
+              "description": "Sea World – einfach anklicken und fertig!"
+            }
+          }
         }
-      ]
+      ],
+      "defaultLocale": "zh-CN",
+      "localizations": {
+        "zh-CN": {
+          "name": "大海世界",
+          "summary": "点就完事了！",
+          "tags": [
+            "休闲",
+            "网页",
+            "点击"
+          ]
+        },
+        "zh-TW": {
+          "name": "海世界",
+          "summary": "點就完事了！",
+          "tags": [
+            "休閒",
+            "網頁",
+            "點選"
+          ]
+        },
+        "en-US": {
+          "name": "sea world",
+          "summary": "Click and that’s it!",
+          "tags": [
+            "Leisure",
+            "web page",
+            "Click"
+          ]
+        },
+        "ja-JP": {
+          "name": "海の世界",
+          "summary": "クリックするだけです!",
+          "tags": [
+            "レジャー",
+            "ウェブページ",
+            "クリック"
+          ]
+        },
+        "de-DE": {
+          "name": "Meereswelt",
+          "summary": "Klicken und fertig!",
+          "tags": [
+            "Freizeit",
+            "Webseite",
+            "Klicken Sie"
+          ]
+        }
+      }
     }
   ]
 }
